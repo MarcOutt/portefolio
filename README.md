@@ -30,6 +30,6 @@ Ce portfolio présente mes compétences, projets et expériences en tant que dé
 Le projet est organisé de la manière suivante :
 
 - index.html : Page d'accueil du portfolio
-- style.css : Feuille de style CSS pour la mise en forme
-- script.js : Fichier JavaScript pour les fonctionnalités interactives
+- sass/ : mise en forme du site 
+- menu.js : Fichier JavaScript pour les fonctionnalités interactives
 - images/ : Dossier contenant les images utilisées dans le portfolios
