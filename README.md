@@ -22,7 +22,7 @@ Ce portfolio présente mes compétences, projets et expériences en tant que dé
 ## Technologies utilisées
 
 - HTML
-- CSS
+- CSS/SASS
 - JavaScript
 
 ## Structure du Projet
