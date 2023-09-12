@@ -955,7 +955,7 @@ body {
 }
 
 .section-features {
-  background-image: linear-gradient(to right bottom, rgba(162, 168, 211, 0.7), rgba(17, 63, 103, 0.7)), url("/img/code.jpg");
+  background-image: linear-gradient(to right bottom, rgba(162, 168, 211, 0.7), rgba(17, 63, 103, 0.7)), url("../img/code.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
