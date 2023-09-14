@@ -79,25 +79,25 @@
 
         &--6{
             background-image: url('../img/AlgoInvest&Trade.png');
-            background-size: 80rem;
+            background-size: 60rem;
             background-position: top;
         }
 
         &--7{
             background-image: url('../img/chess-club.png');
-            background-size: 30rem;
+            background-size: 55rem;
             background-position: top;
         }
 
         &--8{
             background-image: url('../img/JustStreamIt.png');
-            background-size: 32rem;
-            background-position: left;
+            background-size: 60rem;
+            background-position: top;
         }
 
         &--9{
             background-image: url('../img/books-online.png');
-            background-size: 95rem;
+            background-size: 55rem;
             background-position: top;
         }
     }
@@ -108,12 +108,11 @@
         text-transform: uppercase;
         text-align: right;
         color:$color-white;
-        position: absolute;
-        top: 12rem;
-        right: 2rem;
-        width: 75%;
-    }
 
+        position: absolute;
+        top: 0rem;
+        width: 100%;
+    }
 
    &__details {
         padding: 3rem;

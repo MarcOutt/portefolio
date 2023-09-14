@@ -54,11 +54,16 @@
             transform: scale(1.05) translateY(-.5rem);
             box-shadow: 0 2.5rem 4 rem rgba($color-black, .5);
             z-index: 20;
+
+            @include respond(tab-port) {
+                    transform: scale(1.2) translateY(-.5rem);
+                    z-index: 120;
+        }
         }
 
     }
 
     &:hover &__photo:not(:hover) {
-        transform: scale(.95)
+        transform: scale(.95);
     }
 }

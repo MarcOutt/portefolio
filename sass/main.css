@@ -331,22 +331,22 @@ body {
 }
 .card__picture--6 {
   background-image: url("../img/AlgoInvest&Trade.png");
-  background-size: 80rem;
+  background-size: 60rem;
   background-position: top;
 }
 .card__picture--7 {
   background-image: url("../img/chess-club.png");
-  background-size: 30rem;
+  background-size: 55rem;
   background-position: top;
 }
 .card__picture--8 {
   background-image: url("../img/JustStreamIt.png");
-  background-size: 32rem;
-  background-position: left;
+  background-size: 60rem;
+  background-position: top;
 }
 .card__picture--9 {
   background-image: url("../img/books-online.png");
-  background-size: 95rem;
+  background-size: 55rem;
   background-position: top;
 }
 .card__heading {
@@ -356,9 +356,8 @@ body {
   text-align: right;
   color: #fff;
   position: absolute;
-  top: 12rem;
-  right: 2rem;
-  width: 75%;
+  top: 0rem;
+  width: 100%;
 }
 .card__details {
   padding: 3rem;
@@ -481,6 +480,12 @@ body {
   transform: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4 rem rgba(0, 0, 0, 0.5);
   z-index: 20;
+}
+@media only screen and (max-width: 63.75em) {
+  .composition__photo:hover {
+    transform: scale(1.2) translateY(-0.5rem);
+    z-index: 120;
+  }
 }
 .composition:hover .composition__photo:not(:hover) {
   transform: scale(0.95);
