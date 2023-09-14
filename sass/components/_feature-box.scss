@@ -8,14 +8,28 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     transition: transform .3s;
 
+    @include respond(tab-port) {
+        padding: 1rem;
+    }
+
     &__icons {
         margin-top: 1rem;
         margin-bottom: .5rem;
+
+        @include respond(tab-port) {
+            margin-top: 2rem;
+            margin-bottom: 0rem;
+        }
 
         &--logo {
             margin: 1rem 1rem;
             width: 7rem;
             margin-bottom: .5rem;
+
+            @include respond(tab-port) {
+                width: 9rem;
+                margin: 0 4rem;
+            }
         }
     }
 

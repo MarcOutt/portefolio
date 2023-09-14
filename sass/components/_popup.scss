@@ -12,6 +12,8 @@
     visibility: hidden;
     transition: all .3s;
 
+
+
     &__content {
         @include absCenter;
         font-size: $default-font-size;
@@ -26,6 +28,11 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.5);
         transition: all .4s .2s;
+
+        @include respond(medium-desktop) {
+            font-size: 1.5rem;
+            width: 90%;
+        }
     }
 
     &__left {
@@ -34,6 +41,10 @@
         display: table-cell;
         vertical-align: middle;
         background-color: $color-primary-dark;
+
+        @include respond(tab-port) {
+            display: none;
+        }
 
         h1 {
             font-size: 5rem;
@@ -51,15 +62,25 @@
     }
 
     &__right {
-        width: 66.6666667%;
+        width: 100%;
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-port) {
+            width: auto;
+            margin: 0.5rem;
+        }
     }
 
     &__img, &__list {
         display: block;
         width: 100%;
+
+        @include respond(tab-port) {
+            width: auto;
+            margin: 0.5rem;
+        }
     }
 
     &__text {
@@ -71,7 +92,6 @@
         margin-right: auto;
 
         ul {
-            font-size: $default-font-size;
             margin-left: 5rem;;
         }
     }
