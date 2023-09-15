@@ -78,6 +78,10 @@
                     transform: scale(1.2) translateY(-.5rem);
                     z-index: 120;
             }
+
+            @include respond(phone) {
+                outline: none;
+            }
         }
 
     }

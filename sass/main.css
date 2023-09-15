@@ -519,6 +519,11 @@ body {
     z-index: 120;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .composition__photo:hover {
+    outline: none;
+  }
+}
 .composition:hover .composition__photo:not(:hover) {
   transform: scale(0.95);
 }
