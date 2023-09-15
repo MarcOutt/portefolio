@@ -217,6 +217,11 @@ body {
   background-color: #fff;
   color: #777;
 }
+@media only screen and (max-width: 37.5em) {
+  .btn--white-phone {
+    visibility: hidden;
+  }
+}
 .btn--white::after {
   background-color: #fff;
 }
@@ -390,6 +395,11 @@ body {
   width: 90%;
   transform: translate(-50%, -50%);
 }
+@media only screen and (max-width: 37.5em) {
+  .card__cta {
+    height: 40rem;
+  }
+}
 @media only screen and (max-width: 63.75em) {
   .card {
     height: auto;
@@ -443,6 +453,11 @@ body {
     box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .composition__photo {
+    height: 10rem;
+  }
+}
 .composition__photo--p1 {
   left: 0;
   top: -2rem;
@@ -451,6 +466,12 @@ body {
   .composition__photo--p1 {
     top: -1rem;
     transform: scale(1.1);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .composition__photo--p1 {
+    transform: scale(0.95);
+    left: 2rem;
   }
 }
 .composition__photo--p2 {
@@ -464,6 +485,11 @@ body {
     z-index: 100;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .composition__photo--p2 {
+    transform: scale(0.95);
+  }
+}
 .composition__photo--p3 {
   left: 20%;
   top: 10rem;
@@ -473,6 +499,12 @@ body {
     top: 1rem;
     left: 0;
     transform: scale(1.2);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .composition__photo--p3 {
+    transform: scale(0.95);
+    left: -2rem;
   }
 }
 .composition__photo:hover {
@@ -1049,6 +1081,11 @@ body {
 @media only screen and (max-width: 63.75em) {
   .section-about {
     padding: 20rem 0;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .section-about {
+    padding: 20rem 1rem;
   }
 }
 
